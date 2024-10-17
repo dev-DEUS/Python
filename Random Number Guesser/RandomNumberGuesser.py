@@ -11,7 +11,6 @@ while (play_again):
     random_number = random.randrange(1, 100)
     lives = 10
     print("A new random number has been generated.")
-    print(random_number)
 
     while (lives > 0):
         guessed_number = int(input("Guess a number between 1 - 100: "))
